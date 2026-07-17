@@ -1,0 +1,23 @@
+generated: '2026-07-17'
+method: searched
+source: https://slow.co/about/
+type: Team
+members:
+  - name: Kevin Colleran
+    role: Managing Director
+    note: Former GC; one of the earliest employees at Facebook
+  - name: Sam Lessin
+    role: General Partner
+    note: Former VP Product at Facebook; co-founder of Fin Analytics and Drop.io
+  - name: Will Quist
+    role: General Partner
+    note: Former Partner at Industry Ventures
+  - name: Megan Lightcap
+    role: Partner, Creator Fund
+    note: Former Olive and L Catterton
+  - name: Yoni Rechtman
+    role: Partner
+    note: Former Tusk Ventures
+  - name: Clay Robbins
+    role: Forward Deployed Partner, Crypto
+    note: Former 0x and Square
