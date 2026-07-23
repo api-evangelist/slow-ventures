@@ -13,6 +13,17 @@ description: >-
   creator-led businesses, and has deployed roughly $800M+ across multiple fund vintages since inception.
   Notable investments include Pinterest, Slack, Robinhood, Nextdoor, Postmates, Opendoor, Wealthfront,
   Casper, PillPack, Airtable, Gusto, and Solana.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://slow.co/favicon.ico
 x-type: venture-capital
 x-category: Venture Capital

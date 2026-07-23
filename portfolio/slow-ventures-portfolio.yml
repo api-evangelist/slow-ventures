@@ -3,9 +3,9 @@ method: searched
 source: https://slow.co/portfolio/
 summary:
   portfolio_total: 143
-  in_network: 30
-  api_providers: 16
-  missing: 113
+  in_network: 143
+  api_providers: 26
+  missing: 0
   stubs_created: 0
 companies:
 - name: 15five
@@ -20,30 +20,34 @@ companies:
   url: https://ablelending.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ablelending
+  slug: ablelending
+  matched_by: domain
 - name: accion-systems
   url: https://accion-systems.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: accion-systems
+  slug: accion-systems
+  matched_by: domain
 - name: amberjack
   url: https://amberjack.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: amberjack
+  slug: amberjack
+  matched_by: domain
 - name: aminoapps
   url: https://aminoapps.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aminoapps
+  slug: aminoapps
+  matched_by: domain
 - name: amplitude
   url: https://amplitude.com
   status: unknown
@@ -56,114 +60,130 @@ companies:
   url: https://art.sy
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: art
+  in_network: true
+  is_api_provider: true
+  slug: art
+  matched_by: name-slug
 - name: assi
   url: https://assi.st
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: assi
+  slug: assi
+  matched_by: domain
 - name: bannerman
   url: https://bannerman.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bannerman
+  slug: bannerman
+  matched_by: domain
 - name: barkbox
   url: https://barkbox.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: barkbox
+  slug: barkbox
+  matched_by: domain
 - name: corp
   url: https://corp.betable.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: corp
+  slug: corp
+  matched_by: name-slug
 - name: birchbox
   url: https://birchbox.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: birchbox
+  slug: birchbox
+  matched_by: domain
 - name: bluebottlecoffee
   url: https://bluebottlecoffee.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bluebottlecoffee
+  slug: bluebottlecoffee
+  matched_by: domain
 - name: brewster
   url: https://brewster.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: brewster
+  slug: brewster
+  matched_by: name-slug
 - name: brit
   url: https://brit.co
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: brit
+  slug: brit
+  matched_by: domain
 - name: usebutton
   url: https://usebutton.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: usebutton
+  in_network: true
+  is_api_provider: true
+  slug: usebutton
+  matched_by: domain
 - name: cadre
   url: https://cadre.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cadre
+  slug: cadre
+  matched_by: domain
 - name: casper
   url: https://casper.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: casper
+  slug: casper
+  matched_by: domain
 - name: change
   url: https://change.org
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: change
+  slug: change
+  matched_by: domain
 - name: chatous
   url: https://chatous.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: chatous
+  slug: chatous
+  matched_by: domain
 - name: checkout51
   url: https://checkout51.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: checkout51
+  slug: checkout51
+  matched_by: domain
 - name: circanews
   url: https://circanews.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: circanews
+  slug: circanews
+  matched_by: domain
 - name: classdojo
   url: https://classdojo.com
   status: unknown
@@ -192,142 +212,162 @@ companies:
   url: https://complexpolygon.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: complexpolygon
+  slug: complexpolygon
+  matched_by: domain
 - name: contactually
   url: https://contactually.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: contactually
+  slug: contactually
+  matched_by: domain
 - name: cordproject
   url: https://cordproject.co
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cordproject
+  slug: cordproject
+  matched_by: domain
 - name: couple
   url: https://couple.me
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: couple
+  slug: couple
+  matched_by: domain
 - name: dashmobile
   url: https://dashmobile.co
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dashmobile
+  slug: dashmobile
+  matched_by: domain
 - name: depict
   url: https://depict.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: depict
+  in_network: true
+  is_api_provider: true
+  slug: depict
+  matched_by: name-slug
 - name: diy
   url: https://diy.org
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: diy
+  slug: diy
+  matched_by: domain
 - name: do
   url: https://do.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: do
+  slug: do
+  matched_by: domain
 - name: dots
   url: https://dots.co
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dots
+  slug: dots
+  matched_by: domain
 - name: dwell
   url: https://dwell.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dwell
+  slug: dwell
+  matched_by: domain
 - name: earnest
   url: https://earnest.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: earnest
+  slug: earnest
+  matched_by: domain
 - name: whatiseven
   url: https://whatiseven.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: whatiseven
+  slug: whatiseven
+  matched_by: domain
 - name: everlane
   url: https://everlane.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: everlane
+  slug: everlane
+  matched_by: domain
 - name: evernote
   url: https://evernote.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: evernote
+  slug: evernote
+  matched_by: domain
 - name: everyme
   url: https://everyme.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: everyme
+  slug: everyme
+  matched_by: name-slug
 - name: experiment
   url: https://experiment.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: experiment
+  slug: experiment
+  matched_by: domain
 - name: thefacefeed
   url: https://thefacefeed.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thefacefeed
+  slug: thefacefeed
+  matched_by: domain
 - name: fixed
   url: https://fixed.com.au
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fixed
+  slug: fixed
+  matched_by: domain
 - name: editonthefly
   url: https://editonthefly.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: editonthefly
+  slug: editonthefly
+  matched_by: domain
 - name: ffrree
   url: https://ffrree.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ffrree
+  slug: ffrree
+  matched_by: domain
 - name: fullcontact
   url: https://fullcontact.com
   status: unknown
@@ -356,23 +396,26 @@ companies:
   url: https://glowing.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: glowing
+  slug: glowing
+  matched_by: domain
 - name: handy
   url: https://handy.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: handy
+  in_network: true
+  is_api_provider: true
+  slug: handy
+  matched_by: domain
 - name: hangtime
   url: https://hangtime.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hangtime
+  slug: hangtime
+  matched_by: domain
 - name: helium
   url: https://helium.com
   status: unknown
@@ -385,9 +428,10 @@ companies:
   url: https://highlig.ht
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: highlig
+  slug: highlig
+  matched_by: domain
 - name: hinge
   url: https://hinge.co
   status: unknown
@@ -400,9 +444,10 @@ companies:
   url: https://hipcamp.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hipcamp
+  slug: hipcamp
+  matched_by: domain
 - name: joinhonor
   url: https://joinhonor.com
   status: unknown
@@ -423,37 +468,42 @@ companies:
   url: https://ivymark.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ivymark
+  slug: ivymark
+  matched_by: domain
 - name: jct
   url: https://jct.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jct
+  slug: jct
+  matched_by: domain
 - name: havekarma
   url: https://havekarma.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: havekarma
+  slug: havekarma
+  matched_by: domain
 - name: kaufmann-mercantile
   url: https://kaufmann-mercantile.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kaufmann-mercantile
+  slug: kaufmann-mercantile
+  matched_by: domain
 - name: knotch
   url: https://knotch.it
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: knotch
+  slug: knotch
+  matched_by: domain
 - name: lever
   url: https://lever.co
   status: unknown
@@ -466,93 +516,106 @@ companies:
   url: https://liftopia.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: liftopia
+  slug: liftopia
+  matched_by: domain
 - name: lily
   url: https://lily.camera
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lily
+  slug: lily
+  matched_by: domain
 - name: limofind
   url: https://limofind.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: limofind
+  slug: limofind
+  matched_by: domain
 - name: lockitron
   url: https://lockitron.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lockitron
+  slug: lockitron
+  matched_by: domain
 - name: makespace
   url: https://makespace.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: makespace
+  slug: makespace
+  matched_by: domain
 - name: managedbyq
   url: https://managedbyq.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: managedbyq
+  slug: managedbyq
+  matched_by: domain
 - name: mattermark
   url: https://mattermark.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mattermark
+  slug: mattermark
+  matched_by: domain
 - name: mymave
   url: https://mymave.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mymave
+  slug: mymave
+  matched_by: domain
 - name: mavrx
   url: https://mavrx.co
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mavrx
+  slug: mavrx
+  matched_by: domain
 - name: mindie
   url: https://mindie.co
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mindie
+  slug: mindie
+  matched_by: domain
 - name: minted
   url: https://minted.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: minted
+  slug: minted
+  matched_by: domain
 - name: more
   url: https://more.mitoo.co
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: more
+  slug: more
+  matched_by: domain
 - name: nationbuilder
   url: https://nationbuilder.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: nationbuilder
+  in_network: true
+  is_api_provider: true
+  slug: nationbuilder
+  matched_by: domain
 - name: nest
   url: https://nest.vc
   status: unknown
@@ -565,9 +628,10 @@ companies:
   url: https://newco.co
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: newco
+  slug: newco
+  matched_by: domain
 - name: nextdoor
   url: https://nextdoor.com
   status: unknown
@@ -580,16 +644,18 @@ companies:
   url: https://niche.co
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: niche
+  slug: niche
+  matched_by: domain
 - name: nomiku
   url: https://nomiku.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nomiku
+  slug: nomiku
+  matched_by: domain
 - name: opendoor
   url: https://opendoor.com
   status: unknown
@@ -602,51 +668,58 @@ companies:
   url: https://opsmatic.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: opsmatic
+  slug: opsmatic
+  matched_by: domain
 - name: parenthoods
   url: https://parenthoods.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: parenthoods
+  slug: parenthoods
+  matched_by: domain
 - name: partnered
   url: https://partnered.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: partnered
+  slug: partnered
+  matched_by: domain
 - name: percolate
   url: https://percolate.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: percolate
+  slug: percolate
+  matched_by: domain
 - name: picnichealth
   url: https://picnichealth.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: picnichealth
+  slug: picnichealth
+  matched_by: domain
 - name: pillow
   url: https://pillow.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pillow
+  slug: pillow
+  matched_by: domain
 - name: pillpack
   url: https://pillpack.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pillpack
+  slug: pillpack
+  matched_by: domain
 - name: pinterest
   url: https://pinterest.com
   status: unknown
@@ -659,16 +732,18 @@ companies:
   url: https://plated.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: plated
+  slug: plated
+  matched_by: domain
 - name: popupmagazine
   url: https://popupmagazine.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: popupmagazine
+  slug: popupmagazine
+  matched_by: domain
 - name: postmates
   url: https://postmates.com
   status: unknown
@@ -689,16 +764,18 @@ companies:
   url: https://quibb.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: quibb
+  slug: quibb
+  matched_by: domain
 - name: rachio
   url: https://rachio.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rachio
+  slug: rachio
+  matched_by: domain
 - name: radius
   url: https://radius.com
   status: unknown
@@ -711,16 +788,18 @@ companies:
   url: https://ratter.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ratter
+  slug: ratter
+  matched_by: domain
 - name: refresh
   url: https://refresh.si
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: refresh
+  slug: refresh
+  matched_by: domain
 - name: resy
   url: https://resy.com
   status: unknown
@@ -733,30 +812,34 @@ companies:
   url: https://roadster.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: roadster
+  slug: roadster
+  matched_by: domain
 - name: robinhood
   url: https://robinhood.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: robinhood
+  in_network: true
+  is_api_provider: true
+  slug: robinhood
+  matched_by: domain
 - name: myedens
   url: https://myedens.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: myedens
+  slug: myedens
+  matched_by: domain
 - name: sendbloom
   url: https://sendbloom.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sendbloom
+  slug: sendbloom
+  matched_by: domain
 - name: goshippo
   url: https://goshippo.com
   status: unknown
@@ -769,16 +852,18 @@ companies:
   url: https://silvercar.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: silvercar
+  slug: silvercar
+  matched_by: domain
 - name: silversheet
   url: https://silversheet.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: silversheet
+  slug: silversheet
+  matched_by: domain
 - name: simondata
   url: https://simondata.com
   status: unknown
@@ -807,30 +892,34 @@ companies:
   url: https://snapguide.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: snapguide
+  slug: snapguide
+  matched_by: domain
 - name: springrewards
   url: https://springrewards.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: springrewards
+  slug: springrewards
+  matched_by: domain
 - name: styleseat
   url: https://styleseat.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: styleseat
+  slug: styleseat
+  matched_by: domain
 - name: sunrise
   url: https://sunrise.am
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: sunrise
+  in_network: true
+  is_api_provider: true
+  slug: sunrise-atelier
+  matched_by: domain
 - name: swell
   url: https://swell.com
   status: unknown
@@ -843,16 +932,18 @@ companies:
   url: https://tachyus.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: tachyus
+  in_network: true
+  is_api_provider: true
+  slug: tachyus
+  matched_by: domain
 - name: tape
   url: https://tape.tv
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tape
+  slug: tape
+  matched_by: domain
 - name: taskrabbit
   url: https://taskrabbit.com
   status: unknown
@@ -865,79 +956,90 @@ companies:
   url: https://threadflip.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: threadflip
+  slug: threadflip
+  matched_by: domain
 - name: thetileapp
   url: https://thetileapp.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thetileapp
+  slug: thetileapp
+  matched_by: domain
 - name: tilt
   url: https://tilt.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tilt
+  slug: tilt
+  matched_by: domain
 - name: tindie
   url: https://tindie.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: tindie
+  in_network: true
+  is_api_provider: true
+  slug: tindie
+  matched_by: domain
 - name: toytalk
   url: https://toytalk.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: toytalk
+  slug: toytalk
+  matched_by: name-slug
 - name: turntable
   url: https://turntable.fm
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: turntable
+  slug: turntable
+  matched_by: domain
 - name: txn
   url: https://txn.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: txn
+  slug: txn
+  matched_by: domain
 - name: unwind
   url: https://unwind.me
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: unwind
+  slug: unwind
+  matched_by: domain
 - name: urbanremedy
   url: https://urbanremedy.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: urbanremedy
+  slug: urbanremedy
+  matched_by: domain
 - name: vamo
   url: https://vamo.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vamo
+  slug: vamo
+  matched_by: domain
 - name: vida
   url: https://vida.fm
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vida
+  slug: vida
+  matched_by: name-slug
 - name: visa
   url: https://visa.com
   status: unknown
@@ -950,23 +1052,26 @@ companies:
   url: https://wanelo.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wanelo
+  slug: wanelo
+  matched_by: domain
 - name: wantful
   url: https://wantful.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wantful
+  slug: wantful
+  matched_by: domain
 - name: wayup
   url: https://wayup.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wayup
+  slug: wayup
+  matched_by: domain
 - name: wealthfront
   url: https://wealthfront.com
   status: unknown
@@ -979,9 +1084,10 @@ companies:
   url: https://weotta.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: weotta
+  slug: weotta
+  matched_by: domain
 - name: whistle
   url: https://whistle.com
   status: unknown
@@ -994,48 +1100,55 @@ companies:
   url: https://wigo.us
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wigo
+  slug: wigo
+  matched_by: domain
 - name: getwillcall
   url: https://getwillcall.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: getwillcall
+  slug: getwillcall
+  matched_by: domain
 - name: workpop
   url: https://workpop.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: workpop
+  slug: workpop
+  matched_by: domain
 - name: wutwut
   url: https://wutwut.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wutwut
+  slug: wutwut
+  matched_by: domain
 - name: justyo
   url: https://justyo.co
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: justyo
+  in_network: true
+  is_api_provider: true
+  slug: justyo
+  matched_by: domain
 - name: yplanapp
   url: https://yplanapp.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yplanapp
+  slug: yplanapp
+  matched_by: domain
 - name: imyup
   url: https://imyup.com
   status: unknown
   source: https://slow.co/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: imyup
+  slug: imyup
+  matched_by: domain
