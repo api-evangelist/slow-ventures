@@ -13,6 +13,17 @@ description: >-
   creator-led businesses, and has deployed roughly $800M+ across multiple fund vintages since inception.
   Notable investments include Pinterest, Slack, Robinhood, Nextdoor, Postmates, Opendoor, Wealthfront,
   Casper, PillPack, Airtable, Gusto, and Solana.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
